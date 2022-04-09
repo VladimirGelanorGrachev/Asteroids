@@ -4,7 +4,7 @@ using UnityEngine;
 
 namespace Asteroids
 {
-    internal sealed class Player : MonoBehaviour
+    internal sealed class Player : Unit
     {
         [SerializeField] private float _speed;
         [SerializeField] private float _acceleration;
